@@ -393,7 +393,7 @@ Hero
 
 .fixed, .fixed2{
   position: fixed;
-  background-color: #121212;
+  background-color: #ffffff;
   z-index: 999;
   width: 100%; }
 
