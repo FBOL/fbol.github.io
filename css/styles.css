@@ -1240,7 +1240,7 @@ you can use the generic selector below, but it's slower:
    margin-left: -1px;
    width: 2px;
    height: 100%;
-   background: #ffffff;
+   background: #8e9297;
 }
 
 .timeline-blockrm {
