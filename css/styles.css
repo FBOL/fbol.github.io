@@ -1447,7 +1447,7 @@ display:inline-block;
 }
 
 .exchangebox:hover{
-background:#232731;
+background:#ffffff;
 box-shadow: 0 0 20px 4px rgba(0, 0, 0, 0.3);
 transition: 0.8s;
 border-radius:4px;
