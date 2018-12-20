@@ -815,7 +815,7 @@ To top
 Footer
 ========================================================================== */
 footer {
-  background-color: #3D4351;
+  background-color: #121212;
   position: relative; }
   footer p {
     color: #ACB1B4;
@@ -845,7 +845,7 @@ footer {
     margin: 0 2px; }
   footer .social-share {
     position: absolute;
-    background-color: #373D4A;
+    background-color: #121212;
     right: 0;
     width: 40%;
     height: 100%;
