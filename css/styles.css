@@ -321,7 +321,7 @@ Navigation
   transition: all 300ms ease-in-out; }
 
 .nav-toggle.active span {
-  background-color: transparent; }
+  background-color: #121212; }
 
 .nav-toggle.active span:before, .nav-toggle.active span:after {
   top: 0; }
