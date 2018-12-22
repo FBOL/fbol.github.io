@@ -321,7 +321,7 @@ Navigation
   transition: all 300ms ease-in-out; }
 
 .nav-toggle.active span {
-  background-color: #121212; }
+  background-color: transparent; }
 
 .nav-toggle.active span:before, .nav-toggle.active span:after {
   top: 0; }
@@ -393,7 +393,7 @@ Hero
 
 .fixed, .fixed2{
   position: fixed;
-  background-color: #131415;
+  background-color: #232721;
   z-index: 999;
   width: 100%; }
 
@@ -815,7 +815,7 @@ To top
 Footer
 ========================================================================== */
 footer {
-  background-color: #131415;
+  background-color: #232721;
   position: relative; }
   footer p {
     color: #ACB1B4;
@@ -845,7 +845,7 @@ footer {
     margin: 0 2px; }
   footer .social-share {
     position: absolute;
-    background-color: #131415;
+    background-color: #232721;
     right: 0;
     width: 40%;
     height: 100%;
