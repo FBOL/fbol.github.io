@@ -7,7 +7,7 @@ Typography
 p {
   font-size: 15px;
   line-height: 29px;
-  color: rgba(0, 0, 0, 0);
+  color: rgba(0, 0, 0, 1);
   padding-bottom: 20px; }
 
 h1 {
