@@ -13,19 +13,13 @@
    <priority>1.0000</priority>
 </url>
 <url>
-   <loc>https://SABR-1331.github.io/agroBusiness/</loc>
+   <loc>https://SABR-1331.github.io/caseStudies/</loc>
    <lastmod>2017-09-18T16:11:39+00:00</lastmod>
    <changefreq>weekly</changefreq>
    <priority>0.6400</priority>
 </url>
 <url>
-   <loc>https://SABR-1331.github.io/medicalSolutions/</loc>
-   <lastmod>2017-09-18T16:11:39+00:00</lastmod>
-   <changefreq>weekly</changefreq>
-   <priority>0.6400</priority>
-</url>
-<url>
-   <loc>https://SABR-1331.github.io/contactUs/</loc>
+   <loc>https://SABR-1331.github.io/getStarted/</loc>
    <lastmod>2017-09-18T16:11:39+00:00</lastmod>
    <changefreq>weekly</changefreq>
    <priority>0.6400</priority>
