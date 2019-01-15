@@ -1487,7 +1487,7 @@ padding-bottom:0px !important;
 color:white !important;
 }
 
-.mobile-phone1:before { content: '\f10b'; }
+.tablet1:before { content: '\xf10a'; }
 .mail1:before { content: '\f199'; }
 .phone1:before { content: '\f095'; }
 .telegram1:before { content: '\f2c6'; }
@@ -1497,12 +1497,12 @@ color:white !important;
 .bitcointalk1:before{content: '\f15a';}
 .medium1:before{content: '\f23a';}
 .dcdl{width: 26px;padding-bottom: 5px}
-.mobile-phone1,.mail1,.phone1,.telegram1,.twitter1,.reddit1,.github1,.bitcointalk1,.discord1,.medium1{
+.tablet1,.mail1,.phone1,.telegram1,.twitter1,.reddit1,.github1,.bitcointalk1,.discord1,.medium1{
 color:black;
 display:inline;
 }
 
-.mobile-phone1,.mail1,.phone1,.telegram1,.twitter1,.reddit1,.github1,.bitcointalk1,.discord1,.github1:before {
+.tablet1,.mail1,.phone1,.telegram1,.twitter1,.reddit1,.github1,.bitcointalk1,.discord1,.github1:before {
   font-family: fontawesome;
   font-weight: normal;
   font-size:24px;
