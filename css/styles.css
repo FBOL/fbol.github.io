@@ -1487,7 +1487,9 @@ padding-bottom:0px !important;
 color:white !important;
 }
 
+.mobile-phone1:before { content: '\f10b'; }
 .mail1:before { content: '\f199'; }
+.phone1:before { content: '\f095'; }
 .telegram1:before { content: '\f2c6'; }
 .twitter1:before { content: '\f081'; }
 .reddit1:before {content: '\f1a2';}
