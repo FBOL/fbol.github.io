@@ -1487,7 +1487,7 @@ padding-bottom:0px !important;
 color:white !important;
 }
 
-.tablet1:before { content: '\xf10a'; }
+.tablet1:before { content: '\f10a'; }
 .mail1:before { content: '\f199'; }
 .phone1:before { content: '\f095'; }
 .telegram1:before { content: '\f2c6'; }
