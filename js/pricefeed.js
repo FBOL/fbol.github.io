@@ -74,7 +74,7 @@
             var b = "#21fb69";
             p < 0 && (b = "#ff8e8e"), valTickerHTML = m ? "(" + r + ")" : "", valPrice = s ? e(s, n) : "?", valPercentHTML = p ? '<span style="color:' + b + '">(' + p + "%)" : "", valMarketCap = u ? t(u, 2) : "?", valVolume = h ? t(h, 2) : "?", c ? (mainLineHeight = 25, valPriceSecondary = l ? e(l, c) : "?", secondaryHTML = '<br><span style="font-size: 12px; color:gray">' + valPriceSecondary + " " + c + " </span>") : (mainLineHeight = 30, secondaryHTML = "");
             var w = "utm_medium=widget&utm_campaign=cmcwidget&utm_source=" + location.hostname + "&utm_content=" + a,
-                k = '<span style="font-size: 14px; color:#D3D3D3">' + valPrice + " " + n + " " + valPercentHTML + "</span></span>            " + secondaryHTML + '        </div>        ';
+                k = '<span style="font-size: 14px; color:#A9A9A9">' + valPrice + " " + n + " " + valPercentHTML + "</span></span>            " + secondaryHTML + '        </div>        ';
             return k += o(v, g, x, y, d, f, valMarketCap, valVolume), k += ''
         }
         a(document).ready(function(t) {
