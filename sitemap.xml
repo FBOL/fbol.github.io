@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	  	  
+<!-- www.check-domains.com sitemap generator -->
+
+<url>
+   <loc>https://SABR-1331.github.io/</loc>
+   <lastmod>2017-09-18T16:11:39+00:00</lastmod>
+   <changefreq>weekly</changefreq>
+   <priority>1.0000</priority>
+</url>
+<url>
+   <loc>https://SABR-1331.github.io/caseStudies/</loc>
+   <lastmod>2017-09-18T16:11:39+00:00</lastmod>
+   <changefreq>weekly</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://SABR-1331.github.io/getStarted/</loc>
+   <lastmod>2017-09-18T16:11:39+00:00</lastmod>
+   <changefreq>weekly</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://SABR-1331.github.io/aboutUs/</loc>
+   <lastmod>2017-09-18T16:11:39+00:00</lastmod>
+   <changefreq>weekly</changefreq>
+   <priority>0.6400</priority>
+</url>
+</urlset>
