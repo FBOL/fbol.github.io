@@ -519,7 +519,7 @@ Features-stack
   .features .iphone-wrap {
     width: 350px;
     height: 620px;
-    background: url("../img/SABRconnect.png") no-repeat center center;
+    background: url("../img/NVCconnect.png") no-repeat center center;
     position: absolute;
     left: 530px;
     bottom: 150px;
@@ -586,7 +586,7 @@ Features-stack
     position: absolute;
     width: 922px;
     height: 537px;
-    background: url("../img/SABRwallet.png") no-repeat center center;
+    background: url("../img/NVCwallet.png") no-repeat center center;
     top: 114px;
     z-index: 4;
     left: 50%; }
@@ -1335,9 +1335,9 @@ background: rgba(239, 239, 239, 0.75);
 }
 
 
-.wallets{background: url("../img/SABRwalletbg.jpg")  fixed; width: 100%; height: 100%;}
+.wallets{background: url("../img/NVCwalletbg.jpg")  fixed; width: 100%; height: 100%;}
 
-.exchanges{background: url("../img/SABRexchangebg.png") fixed; width: 100%; height: 80%;}
+.exchanges{background: url("../img/NVCexchangebg.png") fixed; width: 100%; height: 80%;}
 
 *, *:before, *:after {
   margin: 0;
