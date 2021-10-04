@@ -535,16 +535,16 @@ Features-stack
 .devices {
   position: relative; }
   
-#techinfo{
+#CoinSpecs{
   background: #2f2f2f;
 }
 .earthimg{
   width: 90%;left: 200px;height: auto;
 }
-#techinfo .iphone-wrap{
+#CoinSpecs .iphone-wrap{
   bottom:350px;left: 60%;
 }
-#techinfo .responsive-feature-img{
+#CoinSpecs .responsive-feature-img{
   width:115%
   ;top:10px;
   position:relative;
