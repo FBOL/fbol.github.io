@@ -351,7 +351,7 @@ Hero
 ========================================================================== */
 .hero {
   height: 750px;
-  background: url("../img/SABRmbg2.png") center center;
+  background: url("../img/NVCmbg.png") center center;
   background-size: cover;
   position: relative; }
   @media screen and (max-width:850px){
@@ -393,7 +393,7 @@ Hero
 
 .fixed, .fixed2{
   position: fixed;
-  background-color: #2f2f2f;
+  background-color: #6f7f8f;
   z-index: 999;
   width: 100%; }
 
@@ -536,7 +536,7 @@ Features-stack
   position: relative; }
   
 #CoinSpecs{
-  background: #2f2f2f;
+  background: #6f7f8f;
 }
 .earthimg{
   width: 90%;left: 200px;height: auto;
@@ -598,7 +598,7 @@ Features-stack
 ========================================================================== */
 .hero-strip {
   margin-top: 120px;
-  background: #4f4f4f url("../img/SABRpolygonalbg.jpg") no-repeat center center;
+  background: #4f4f4f url("../img/NVCpolygonalbg.jpg") no-repeat center center;
   padding-bottom: 190px;
   position: relative; }
   .hero-strip i {
@@ -815,7 +815,7 @@ To top
 Footer
 ========================================================================== */
 footer {
-  background-color: #2f2f2f;
+  background-color: #6f7f8f;
   position: relative; }
   footer p {
     color: #ACB1B4;
@@ -845,7 +845,7 @@ footer {
     margin: 0 2px; }
   footer .social-share {
     position: absolute;
-    background-color: #2f2f2f;
+    background-color: #6f7f8f;
     right: 0;
     width: 40%;
     height: 100%;
