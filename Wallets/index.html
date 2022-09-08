@@ -1,18 +1,13 @@
 <!doctype html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+<html class="no-js" lang="">
 <head>
     <meta charset="utf-8">
-    <!--<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Wallets</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" href="../img/SABR32x32.png" sizes="32x32" />
-
+    <link rel="icon" type="image/png" href="../img/NVCx32.png" sizes="32x32" />
     <link rel="stylesheet" href="../css/normalize.min.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/jquery.fancybox.css">
@@ -23,7 +18,6 @@
     <link rel="stylesheet" href="../bower_components/animate.css/animate.min.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <script src="../js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-    <!-- Global Site Tag (gtag.js) - Google Analytics -->
     <script async src="//www.googletagmanager.com/gtag/js?id=UA-102031002-2"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -33,9 +27,6 @@
     </script>
 </head>
 <body class="wallets">
-	<!--[if lt IE 8]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
     <section class="fixed">
         <header class="noborder" style="padding: 35px 0px;" header-content="">
                     <div class="logo">
@@ -45,11 +36,11 @@
                 <nav>
 					<ul class="primary-nav">
 						<li><a href="../#features">Features</a></li>
-                        <li><a href="../#techinfo">Coin Specs</a></li>
+                        <li><a href="../#CoinSpecs">Coin Specs</a></li>
 						<li><a href="../#getStarted">Get Started</a></li>
 						<li><a href="../#moreinfo">More Info</a></li>
 						<li><a class="here"><b>Wallets</b></a></li>
-                        <li><a href="http://172.86.75.141:3001/" target="_blank">Explorer</a></li>
+                        <li><a href="../Exchanges">Exchanges</a></li>
                     </ul>
                 </nav>
             </div>
@@ -63,63 +54,113 @@
 					<label class="wa" for="tab1">Windows</label>
 
 					<input class="wa" id="tab2" type="radio" name="tabs">
-					<label class="wa" for="tab2">macOS</label>
+					<label class="wa" for="tab2">macOS 10.10+</label>
 
 					<input class="wa" id="tab3" type="radio" name="tabs">
-					<label class="wa" for="tab3">Linux</label>
+					<label class="wa" for="tab3">Ubuntu 16+</label>
 
-					<!--<input class="wa" id="tab4" type="radio" name="tabs">
+					<input class="wa" id="tab4" type="radio" name="tabs">
 					<label class="wa" for="tab4">Android</label>
 					
 					<input class="wa" id="tab5" type="radio" name="tabs">
-					<label class="wa" for="tab5">iOS</label>-->
+					<label class="wa" for="tab5">Other Downloads</label>
 
 				<section class="wa" id="content1" style="height:180px">
-					<a href="https://github.com/SABR-1331/SABR/releases/download/v0.10.1/SABR-Qt_v0.10.1-Win.zip">
-					<div class="col-md-3 col-sm-6 dwnld">
-                    <h3 style="margin-bottom:0px;margin-top:0px" class="dwnldtxt"><b>Download</b></h3>
-                    <h5 style="text-transform:none;margin-top:0px" class="dwnldtxt"><b>SABR-Qt Windows Wallet</b></h5>
+                    <a href="https://github.com/Laser9un/novacoin/releases/download/nvc-v0.5.9/novacoin-qt_v0.5.9_bdb-win.zip">
+                    <div class="col-sm-4 col-md-2 dwnld">
+                    <h3 style="margin-top:0px;margin-bottom:0px;" class="dwnldtxt"><b>Download</b></h3>
+                    <h5 style="text-transform:none;margin-top:0px" class="dwnldtxt"><b>NovaCoin-Qt v0.5.9 Windows BDB</b></h5>
+                    </a>
+					</div>
+                    <a href="https://github.com/Laser9un/novacoin/releases/download/nvc-v0.5.9/novacoin-qt_v0.5.9_leveldb-win.zip">
+                    <div class="col-sm-4 col-md-2 dwnld">
+                    <h3 style="margin-top:0px;margin-bottom:0px;" class="dwnldtxt"><b>Download</b></h3>
+                    <h5 style="text-transform:none;margin-top:0px" class="dwnldtxt"><b>NovaCoin-Qt v0.5.9 Windows LevelDB</b></h5>
+                    </a>
+					</div>
+                    <a href="https://sourceforge.net/projects/novacoin/files/novacoin-0.5.8/novacoin-0.5.8-bdb-win32-amd64.7z/download">
+                    <div class="col-sm-4 col-md-2 dwnld">
+                    <h3 style="margin-top:0px;margin-bottom:0px;" class="dwnldtxt"><b>Download</b></h3>
+                    <h5 style="text-transform:none;margin-top:0px" class="dwnldtxt"><b>NovaCoin-Qt v0.5.8 Windows x64 BDB</b></h5>
 					</div>
                     </a>
 				</section>
                 <section class="wa" id="content2" style="height:180px">
-                    <a href="https://github.com/SABR-1331/SABR/releases/download/v0.10.1/SABR-Qt_v0.10.1-macOS.dmg">
-                    <div class="col-md-3 col-sm-6 dwnld">
+                    <a href="https://github.com/Laser9un/novacoin/releases/download/nvc-v0.5.9/novacoin-qt_v0.5.9-macos.dmg">
+                    <div class="col-sm-4 col-md-2 dwnld">
                     <h3 style="margin-top:0px;margin-bottom:0px;" class="dwnldtxt"><b>Download</b></h3>
-                    <h5 style="text-transform:none;margin-top:0px" class="dwnldtxt"><b>SABR-Qt macOS Wallet</b></h5>
+                    <h5 style="text-transform:none;margin-top:0px" class="dwnldtxt"><b>NovaCoin-Qt v0.5.9 macOS 10.10+</b></h5>
                     </div>
                     </a>
 				</section>
                 <section class="wa" id="content3" style="height:180px">
-                    <a href="https://github.com/SABR-1331/SABR/releases/download/v0.10.1/SABR-Qt_v0.10.1-Ubuntu64.tar.gz">
-                    <div class="col-md-3 col-sm-6 dwnld">
+                    <a href="https://github.com/Laser9un/novacoin/releases/download/nvc-v0.5.9/novacoin_v0.5.9_bdb-ubuntu16-20_x64.gz">
+                    <div class="col-sm-4 col-md-2 dwnld">
                     <h3 style="margin-top:0px;margin-bottom:0px;" class="dwnldtxt"><b>Download</b></h3>
-                    <h5 style="text-transform:none;margin-top:0px" class="dwnldtxt"><b>SABR-Qt Ubuntu Wallet</b></h5>
+                    <h5 style="text-transform:none;margin-top:0px" class="dwnldtxt"><b>NovaCoin-Qt v0.5.9 Ubuntu 16+ x64 BDB</b></h5>
                     </div>
                     </a>
-                    <a href="https://github.com/SABR-1331/SABR/releases/download/v0.10.1/SABRd_v0.10.1-Ubuntu64.tar.gz">
-                    <div class="col-md-3 col-sm-6 dwnld">
+                    <a href="https://github.com/Laser9un/novacoin/releases/download/nvc-v0.5.9/novacoin_v0.5.9_leveldb-ubuntu16-18_x64.gz">
+                    <div class="col-sm-4 col-md-2 dwnld">
                     <h3 style="margin-top:0px;margin-bottom:0px;" class="dwnldtxt"><b>Download</b></h3>
-                    <h5 style="text-transform:none;margin-top:0px" class="dwnldtxt"><b>SABR Ubuntu daemon</b></h5>
+                    <h5 style="text-transform:none;margin-top:0px" class="dwnldtxt"><b>NovaCoin-Qt v0.5.9 Ubuntu 16+ LevelDB x64</b></h5>
                     </div>
                     </a>
 				</section>
-                <!--<section class="wa" id="content4" style="height:180px">
-                    <a href="">
-                    <div class="col-md-3 col-sm-6 dwnld">
-                    <h3 style="margin-top:0px;margin-bottom:0px;" class="dwnldtxt"><b>Coming Soon</b></h3>
-                    <h5 style="text-transform:none;margin-top:0px" class="dwnldtxt"><b>SABR-qt Android Wallet</b></h5>
+                <section class="wa" id="content4" style="height:180px">
+                    <a href="https://github.com/primecoin/gemmer/releases">
+                    <div class="col-md-2 dwnld">
+                    <h3 style="margin-top:0px;margin-bottom:0px;" class="dwnldtxt"><b>Download</b></h3>
+                    <h5 style="text-transform:none;margin-top:0px" class="dwnldtxt"><b>Gemmer Android wallet ARM64-v8a APK</b></h5>
+                    </div>
+                    </a>
+                    <a href="https://github.com/Laser9un/novacoin/releases/download/nvc-v0.5.9/novacoin-qt_v0.5.9-android_arm.apk">
+                    <div class="col-md-2 dwnld">
+                    <h3 style="margin-top:0px;margin-bottom:0px;" class="dwnldtxt"><b>Download</b></h3>
+                    <h5 style="text-transform:none;margin-top:0px" class="dwnldtxt"><b>NovaCoin-Qt v0.5.9 Android 4-5 ARMv7 APK</b></h5>
+                    </div>
+                    </a>
+                    <a href="https://github.com/Laser9un/novacoin/releases/download/nvc-v0.5.9/novacoin-qt_v0.5.9-android_x86.apk">
+                    <div class="col-md-2 dwnld">
+                    <h3 style="margin-top:0px;margin-bottom:0px;" class="dwnldtxt"><b>Download</b></h3>
+                    <h5 style="text-transform:none;margin-top:0px" class="dwnldtxt"><b>NovaCoin-Qt v0.5.9 Android 4-5 x86 APK</b></h5>
+                    </div>
+                    </a>
+                    <a href="https://github.com/WikiMin3R/CoinMunityWallet/releases">
+                    <div class="col-md-2 dwnld">
+                    <h3 style="margin-top:0px;margin-bottom:0px;" class="dwnldtxt"><b>Download</b></h3>
+                    <h5 style="text-transform:none;margin-top:0px" class="dwnldtxt"><b>CoinMunity Android wallet [ALPHA]</b></h5>
                     </div>
                     </a>
 				</section>
-                    <section class="wa" id="content5" style="height:180px">
-                    <a href="">
-                    <div class="col-md-3 col-sm-6 dwnld">
-                    <h3 style="margin-top:0px;margin-bottom:0px;" class="dwnldtxt"><b>Coming Soon</b></h3>
-                    <h5 style="text-transform:none;margin-top:0px" class="dwnldtxt"><b>SABR iOS mobile Wallet</b></h5>
+                <section class="wa" id="content5" style="height:180px">
+                    <a href="https://sourceforge.net/projects/novacoin/files/" target="_blank">
+                    <div class="col-sm-4 col-md-2 dwnld">
+                    <h3 style="margin-top:0px;margin-bottom:0px;" class="dwnldtxt"><b>sourceforge.net</b></h3>
+                    <h5 style="text-transform:none;margin-top:0px" class="dwnldtxt"><b>NovaCoin files</b></h5>
                     </div>
                     </a>
-				</section>-->
+                    <a href="https://github.com/walletgeneratornet/WalletGenerator.net/archive/refs/tags/v2018.01.23.zip" target="_blank">
+                    <div class="col-sm-4 col-md-2 dwnld">
+                    <h3 style="margin-top:0px;margin-bottom:0px;" class="dwnldtxt"><b>Walletgenerator</b></h3>
+                    <h5 style="text-transform:none;margin-top:0px" class="dwnldtxt"><b>Paper/Brain wallet</b></h5>
+                    </div>
+                    </a>
+				</section>
+                <section class="wa" id="content5" style="height:180px">
+                    <a href="https://safepal.io/download" target="_blank">
+                    <div class="col-sm-4 col-md-2 dwnld">
+                    <h3 style="margin-top:0px;margin-bottom:0px;" class="dwnldtxt"><b>NVC BEP-20</b></h3>
+                    <h5 style="text-transform:none;margin-top:0px" class="dwnldtxt"><b>SafePal Wallet</b></h5>
+                    </div>
+                    </a>
+                    <a href="https://trustwallet.com/download-page/" target="_blank">
+                    <div class="col-sm-4 col-md-2 dwnld">
+                    <h3 style="margin-top:0px;margin-bottom:0px;" class="dwnldtxt"><b>NVC BEP-20</b></h3>
+                    <h5 style="text-transform:none;margin-top:0px" class="dwnldtxt"><b>Trust Wallet</b></h5>
+                    </div>
+                    </a>
+				</section>
             </div>
         </div>
 	</section>
@@ -135,35 +176,41 @@
                             <li><a href="../#CoinSpecs">Coin Specs</a></li>
 							<li><a href="../#getStarted">Get Started</a></li>
 							<li><a href="../#moreinfo">More Info</a></li>
-							<li><a href="http://172.86.75.141:3001/" target="_blank">Explorer</a></li>							
+                            <li><a href="../Exchanges">Exchanges</a></li>
                         </ul>
-                          <p>Copyright © 2017-2021 SABR<br>
+                          <p>Copyright © NovaCoin Community<br>
                     </div>
                 </div>
                     <div class="social-share">
-                      <p>Contact Us</p>
+                      <p>Discussion</p>
   					<div>
-  					<div>
-  						<a href="mailto:SABR-1331@protonmail.com">
-  							<span class="mail1"></span>
-  							<p class="icontext">Mail</p>
-  						</a>
-  					</div>					
-                        <a href="https://t.me/SABR_Coins" target="_blank">
+                        <a href="https://t.me/NovaCoin_RU" target="_blank">
   							<span class="telegram1"></span>
-  							<p class="icontext">Telegram</p>
+  							<p class="icontext">Telegram RU</p>
+  						</a>
+  					</div>
+  					<div>
+                        <a href="https://t.me/NovaCoin_EN" target="_blank">
+  							<span class="telegram1"></span>
+  							<p class="icontext">Telegram EN</p>
   						</a>
   					</div>
                     <div>
-                        <a href="https://bitcointalk.org/index.php?topic=2480007.0" target="_blank">
+                        <a href="https://bitcointalk.org/index.php?topic=5189551.0" target="_blank">
                             <span class="bitcointalk1"></span>
-                            <p class="icontext">Bitcointalk</p>
+                            <p class="icontext">Bitcointalk RU</p>
                         </a>
                     </div>
   					<div>
-  						<a href="https://github.com/SABR-1331" target="_blank">
-  							<span class="github1"></span>
-  							<p class="icontext">Github</p>
+                        <a href="https://bitcointalk.org/index.php?topic=5189560.0" target="_blank">
+                            <span class="bitcointalk1"></span>
+                            <p class="icontext">Bitcointalk EN</p>
+  						</a>
+  					</div>
+  					<div>
+                        <a href="https://discord.gg/6juXnsSkGa" target="_blank">
+  							<span class="discord1"></span>
+  							<p class="icontext">Discord</p>
   						</a>
   					</div>
                 </div>

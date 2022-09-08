@@ -351,13 +351,13 @@ Hero
 ========================================================================== */
 .hero {
   height: 750px;
-  background: url("../img/SABRmbg2.png") center center;
+  background: url("../img/NVCmbg.png") center center;
   background-size: cover;
   position: relative; }
   @media screen and (max-width:850px){
     .hero{
       height: 750px;
-      background: url("../img/SABRmbg3.png") center center;
+      background: url("../img/NVCmbg3.png") center center;
       background-size: cover;
       position: relative;
     }
@@ -365,7 +365,7 @@ Hero
   @media screen and (max-width:480px){
     .hero{
       height: 750px;
-      background: url("../img/SABRmbgmobil2.png") center center;
+      background: url("../img/NVCmbgmobil2.png") center center;
       background-size: cover;
       position: relative;
     }
@@ -393,7 +393,7 @@ Hero
 
 .fixed, .fixed2{
   position: fixed;
-  background-color: #2f2f2f;
+  background-color: #242c34;
   z-index: 999;
   width: 100%; }
 
@@ -519,7 +519,7 @@ Features-stack
   .features .iphone-wrap {
     width: 350px;
     height: 620px;
-    background: url("../img/SABRconnect.png") no-repeat center center;
+    background: url("../img/NVCconnect.png") no-repeat center center;
     position: absolute;
     left: 530px;
     bottom: 150px;
@@ -535,16 +535,16 @@ Features-stack
 .devices {
   position: relative; }
   
-#techinfo{
-  background: #2f2f2f;
+#CoinSpecs{
+  background: #1c1c24;
 }
 .earthimg{
   width: 90%;left: 200px;height: auto;
 }
-#techinfo .iphone-wrap{
+#CoinSpecs .iphone-wrap{
   bottom:350px;left: 60%;
 }
-#techinfo .responsive-feature-img{
+#CoinSpecs .responsive-feature-img{
   width:115%
   ;top:10px;
   position:relative;
@@ -586,7 +586,7 @@ Features-stack
     position: absolute;
     width: 922px;
     height: 537px;
-    background: url("../img/SABRwallet.png") no-repeat center center;
+    background: url("../img/NVCwallet.png") no-repeat center center;
     top: 114px;
     z-index: 4;
     left: 50%; }
@@ -598,7 +598,7 @@ Features-stack
 ========================================================================== */
 .hero-strip {
   margin-top: 120px;
-  background: #4f4f4f url("../img/SABRpolygonalbg.jpg") no-repeat center center;
+  background: #1c1c24 url("../img/NVCpolygonalbg.jpg") no-repeat center center;
   padding-bottom: 190px;
   position: relative; }
   .hero-strip i {
@@ -815,7 +815,7 @@ To top
 Footer
 ========================================================================== */
 footer {
-  background-color: #2f2f2f;
+  background-color: #242c34;
   position: relative; }
   footer p {
     color: #ACB1B4;
@@ -845,7 +845,7 @@ footer {
     margin: 0 2px; }
   footer .social-share {
     position: absolute;
-    background-color: #2f2f2f;
+    background-color: #242c34;
     right: 0;
     width: 40%;
     height: 100%;
@@ -912,7 +912,7 @@ Instead of a list of all class selectors,
 you can use the generic selector below, but it's slower:
 [class*="icon-"] {
 */
-.icon-mobile, .icon-laptop, .icon-desktop, .icon-tablet, .icon-phone, .icon-document, .icon-documents, .icon-search, .icon-clipboard, .icon-newspaper, .icon-notebook, .icon-book-open, .icon-browser, .icon-calendar, .icon-presentation, .icon-picture, .icon-pictures, .icon-video, .icon-camera, .icon-printer, .icon-toolbox, .icon-briefcase, .icon-wallet, .icon-gift, .icon-bargraph, .icon-grid, .icon-expand, .icon-focus, .icon-edit, .icon-adjustments, .icon-ribbon, .icon-hourglass, .icon-lock, .icon-megaphone, .icon-SABR, .icon-trophy, .icon-flag, .icon-map, .icon-puzzle, .icon-basket, .icon-envelope, .icon-streetsign, .icon-telescope, .icon-gears, .icon-key, .icon-paperclip, .icon-attachment, .icon-pricetags, .icon-lightbulb, .icon-layers, .icon-pencil, .icon-tools, .icon-tools-2, .icon-scissors, .icon-paintbrush, .icon-magnifying-glass, .icon-circle-compass, .icon-linegraph, .icon-mic, .icon-strategy, .icon-beaker, .icon-caution, .icon-recycle, .icon-anchor, .icon-profile-male, .icon-profile-female, .icon-bike, .icon-wine, .icon-hotairballoon, .icon-globe, .icon-genius, .icon-map-pin, .icon-dial, .icon-chat, .icon-heart, .icon-cloud, .icon-upload, .icon-download, .icon-target, .icon-hazardous, .icon-piechart, .icon-speedometer, .icon-global, .icon-compass, .icon-lifesaver, .icon-clock, .icon-aperture, .icon-quote, .icon-scope, .icon-alarmclock, .icon-refresh, .icon-happy, .icon-sad, .icon-facebook, .icon-twitter, .icon-googleplus, .icon-rss, .icon-tumblr, .icon-linkedin, .icon-dribbble {
+.icon-mobile, .icon-laptop, .icon-desktop, .icon-tablet, .icon-phone, .icon-document, .icon-documents, .icon-search, .icon-clipboard, .icon-newspaper, .icon-notebook, .icon-book-open, .icon-browser, .icon-calendar, .icon-presentation, .icon-picture, .icon-pictures, .icon-video, .icon-camera, .icon-printer, .icon-toolbox, .icon-briefcase, .icon-wallet, .icon-gift, .icon-bargraph, .icon-grid, .icon-expand, .icon-focus, .icon-edit, .icon-adjustments, .icon-ribbon, .icon-hourglass, .icon-lock, .icon-megaphone, .icon-NVC, .icon-trophy, .icon-flag, .icon-map, .icon-puzzle, .icon-basket, .icon-envelope, .icon-streetsign, .icon-telescope, .icon-gears, .icon-key, .icon-paperclip, .icon-attachment, .icon-pricetags, .icon-lightbulb, .icon-layers, .icon-pencil, .icon-tools, .icon-tools-2, .icon-scissors, .icon-paintbrush, .icon-magnifying-glass, .icon-circle-compass, .icon-linegraph, .icon-mic, .icon-strategy, .icon-beaker, .icon-caution, .icon-recycle, .icon-anchor, .icon-profile-male, .icon-profile-female, .icon-bike, .icon-wine, .icon-hotairballoon, .icon-globe, .icon-genius, .icon-map-pin, .icon-dial, .icon-chat, .icon-heart, .icon-cloud, .icon-upload, .icon-download, .icon-target, .icon-hazardous, .icon-piechart, .icon-speedometer, .icon-global, .icon-compass, .icon-lifesaver, .icon-clock, .icon-aperture, .icon-quote, .icon-scope, .icon-alarmclock, .icon-refresh, .icon-happy, .icon-sad, .icon-facebook, .icon-twitter, .icon-googleplus, .icon-rss, .icon-tumblr, .icon-linkedin, .icon-dribbble {
   font-family: 'et-line';
   speak: none;
   font-style: normal;
@@ -1026,7 +1026,7 @@ you can use the generic selector below, but it's slower:
 .icon-megaphone:before {
   content: "\e021"; }
 
-.icon-SABR:before {
+.icon-NVC:before {
   content: "\e022"; }
 
 .icon-trophy:before {
@@ -1335,9 +1335,9 @@ background: rgba(239, 239, 239, 0.75);
 }
 
 
-.wallets{background: url("../img/SABRwalletbg.jpg")  fixed; width: 100%; height: 100%;}
+.wallets{background: url("../img/NVCwalletbg.jpg")  fixed; width: 100%; height: 100%;}
 
-.exchanges{background: url("../img/SABRexchangebg.png") fixed; width: 100%; height: 80%;}
+.exchanges{background: url("../img/NVCexchangebg.png") fixed; width: 100%; height: 80%;}
 
 *, *:before, *:after {
   margin: 0;
@@ -1493,6 +1493,7 @@ color:white !important;
 .reddit1:before {content: '\f1a2';}
 .github1:before { content: '\f092';}
 .bitcointalk1:before{content: '\f15a';}
+.discord1:before{content: '\f392';}
 .medium1:before{content: '\f23a';}
 .dcdl{width: 26px;padding-bottom: 5px}
 .mail1,.tox1,.telegram1,.twitter1,.reddit1,.github1,.bitcointalk1,.discord1,.medium1{
