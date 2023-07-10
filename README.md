@@ -1,146 +1,91 @@
-# Tranquilpeak
 
-[![Twitter Follow](https://img.shields.io/twitter/follow/thibaudlepretre.svg?style=social&label=%40thibaudlepretre)](https://twitter.com/intent/follow?screen_name=thibaudlepretre)
 
-A gorgeous responsive theme for Hugo blog framework.
+This git repository, hosted on Github.com, is composed of 2 main branches:
+- **`master`** contains the source of my blog (https://EricBouchut.com)
+- **`gh-pages`** contains the published version of my blog.
 
-![Tranquilpeak](https://raw.githubusercontent.com/kakawait/hugo-tranquilpeak-theme/master/showcase.png)
+The **publishing process:** consists of using Hugo to transform the source into the published version:  
+`master`branch (source version) → `hugo` → `gh-pages` branch (published version)  
+I use [Hugo](https://gohugo.io) to generate my blog. It is a fast CLI blogging engine.
 
-## Alpha/Beta versions
+The **deployment process** consists of:
+- committing the changes of the published version to the the `gh-pages`branch
+- pushing the `gh-pages` branch to the repository on Github
 
-**ATTENTION** during *alpha* or *beta* [versions](https://github.com/kakawait/hugo-tranquilpeak-theme/milestones) breaking changes are possible on config file.
+`gh-pages` branch (published version) → Push changes to Github  
+Github notices I pushed to the `gh-pages` branch and automatically replicates it to its Web servers.
+ 
+## Configuration
 
-You can track [breaking changes label](https://github.com/kakawait/hugo-tranquilpeak-theme/issues?q=is%3Aissue+is%3Aopen+label%3A%22breaking+changes%22).
-
-How can I migrate my current version? Please read [CHANGELOG.md](https://github.com/kakawait/hugo-tranquilpeak-theme/blob/master/CHANGELOG.md).
-
-## Summary
-
-- [General](#general)
-- [Features](#features)
-- [Quick start](#quick-start)
-- [Demo](#demo)
-- [Documentation](#documentation)
-- [Contributing](#contributing)
-- [Showcase](#showcase)
-- [License](#license)
-
-## General
-
-- **Authors**: [Thibaud Leprêtre (kakawait)](https://github.com/kakawait) and [Louis Barranqueiro (LouisBarranqueiro)](https://github.com/LouisBarranqueiro)
-- **Version**: 0.5.3-BETA (based on Hexo version 3.1.0)
-- **Compatibility**: Hugo v0.53
-
-## Features
-
-**General features:**
-
-- Fully responsive
-- Optimized for tablets & mobiles
-- Configurable menu of the sidebar
-- Pages to filter tags, categories and archives
-- Background cover image
-- Beautiful about page
-- Support Open Graph protocol
-- Easily customizable (fonts, colors, layout elements, code coloration, etc..)
-- Support internationalization (i18)
-
-**Posts features:**
-
-- Thumbnail image
-- Cover image
-- Responsive videos & images
-- Sharing options
-- Navigation menu
-- GitHub theme for code highlighting (customizable)
-- Image gallery
-- Tags for images (FancyBox), wide images, tabbed code blocks, highlighted text, alerts
-- Table of contents
-
-**Integrated services:**
-
-- Disqus
-- Gitlak
-- Google analytics
-- Gravatar
-- Facebook Insights
-
-### Missing features from original *Hexo* version
-
-- [ ] Algolia (https://github.com/kakawait/hugo-tranquilpeak-theme/issues/8)
-- [ ] Pagination customization `tagPagination`, `categoryPagination` and `archivePagination` (https://github.com/kakawait/hugo-tranquilpeak-theme/issues/17)
-
-**ATTENTION** following features will not be possible due to *Hugo* limitations
-
-- Archives pages by years `/archives/2015`
-- Archives pages by month `/archives/2015/01`
-
-## Quick start
-
-**Please read [user documentation](https://github.com/kakawait/hugo-tranquilpeak-theme/blob/master/docs/user.md), it's short and useful to discover all features and possibilities of the theme, especially the  [writing posts](https://github.com/kakawait/hugo-tranquilpeak-theme/blob/master/docs/user.md#writing-posts) section**
-
-### For people who want to use the original version of Tranquilpeak without modifications (users)
-
-Go to the directory where you have your Hugo site and run:
+### Clone
 
 ```shell
-mkdir themes
-cd themes
-git clone https://github.com/kakawait/hugo-tranquilpeak-theme.git
+git clone git@github.com:ebouchut/ebouchut.github.io.git
+cd ebouchut/github.io
 ```
 
-After installing the Tranquilpeak theme successfully, we recommend you to take a look at the [exampleSite](exampleSite) directory. You will find a working Hugo site configured with the Tranquilpeak theme that you can use as a starting point for your site.
+### Create the public folder
 
-First, let's take a look at the [config.toml](exampleSite/config.toml). It will be useful to learn how to customize your site. Feel free to play around with the settings.
+This needs to be done once after the clone (or if you remove the publish worktree).
 
-More information on [user documentation](https://github.com/kakawait/hugo-tranquilpeak-theme/blob/master/docs/user.md) to install and configure the theme
+```shell
+git checkout master
 
-### For people who want to create their own version of tranquilpeak (developers)
+# make sure no `public` folder is present or else remove it
 
-1. Run `git clone https://github.com/kakawait/hugo-tranquilpeak-theme.git`
-2. Follow [developer documentation](https://github.com/kakawait/hugo-tranquilpeak-theme/blob/master/docs/developer.md) to edit and build the theme
+git worktree add public gh-pages
+```
 
-## Demo
+I use the `worktree` git subcommand here, to create the `public` folder.
+Git populates it with the content of the `gh-pages` as if we cloned the repository inside then checked out the `gh-pages`branches.
+The main advantage of using git worktree is to have the ability to work on multiple branches at the same time depending on the folder we are in:
+- under `public/` we work on the `gh-pages` branch, the published version of the blog.
+- everywhere else (in the working area) we work on the checked out branch (`master`in this case) the source version of the blog.
 
-Check out Tranquilpeak theme in live : [hugo-tranquilpeak-theme demo](https://tranquilpeak.kakawait.com)
+The benefit here is to have the `publish` folder handy with a cloned version of the repository with the target branch `gh-pages` checked out.
+Once I generate the published version of the blog using `hugo` I then only need to cd into `publish` commit the changes and push the `gh-pages` branch to github. Github then automatically notices a push occurred and replicates the published site on its servers.
 
-## Showcase
+## Usage
 
-Checkout showcase https://tranquilpeak.kakawait.com/2015/06/who-is-using-tranquilpeak-hugo-theme/
+### Preview the blog
 
-### How can I add my site to the showcase
+```shell
+git checkout master
+hugo serve
+```
 
-**Click [here](https://github.com/kakawait/hugo-tranquilpeak-theme/issues/new?title=Add%20my%20blog%20into%20the%20showcase&body=Hey,%20add%20my%20blog%20into%20the%20showcase:) to add your blog into the showcase.**
+You can then view the blog locally at http://localhost:1313/  
+The changes are updated live.
 
-Please fill the following information:
+### Write a new Blog Post
 
-1. public url
-2. name (optional)
-3. description (optional)
+```
+# git checkout master # If not on the master branch
 
-## Documentation
+# Generate a new blog post named xxx.md under content/
+hugo new post/2021-07-17-xxx.md
 
-If it's your first time using Hugo, please check [Hugo official documentation](https://gohugo.io/overview/introduction/)
+# Edit content/post/2021-07-17-xxx.md
 
-### For users
+git add content/post/2021-07-17-xxx.md
+git push  # origin master
+```
 
-To install and configure the theme, consult the following documentation : [user documentation](https://github.com/kakawait/hugo-tranquilpeak-theme/blob/master/docs/user.md)
+### Publish the Blog
 
-### For developers
+```shell
+git checkout master
 
-To understand the code, the workflow and edit the theme, consult the following documentation : [developer documentation](https://github.com/kakawait/hugo-tranquilpeak-theme/blob/master/docs/developer.md)
 
-## Contributing
+# => Generate the published version of the blog in the `publish` folder.
+hugo
 
-All kinds of contributions (enhancements, features, documentation & code improvements, bugs reporting) are welcome.
+cd public
+# => Note that in public/ and only in this folder the current branch is `gh-pages` due to worktree magic
+git add .
+git commit -m "Published at YYYY-MM-DD" -m "Additional description if needed"
+git push   # origin gh-pages
 
-Read [guidelines for contributing](https://github.com/kakawait/hugo-tranquilpeak-theme/blob/master/.github/CONTRIBUTING.md) for more information.
-
-## Credits
-
-*Hugo* version of Tranquilpeak is a based on original *Hexo* version https://github.com/LouisBarranqueiro/hexo-theme-tranquilpeak. This version is simply a port to *Hugo* static site generator.
-
-## License
-
-hugo-tranquilpeak-theme is released under the terms of the [GNU General Public License v3.0](https://github.com/kakawait/hugo-tranquilpeak-theme/blob/master/LICENSE).
+cd ..
+```
 
