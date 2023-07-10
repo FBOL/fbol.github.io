@@ -1,25 +1,12 @@
-src/*.exe
-src/42d
-src/build.h
-.*.swp
-*.*~*
-*.bak
-*.rej
-*.orig
-*.o
-*.patch
-.42
-#compilation and Qt preprocessor part
-*.qm
-Makefile
-42-qt
-#resources cpp
-qrc_*.cpp
-#qt creator
-*.pro.user
-#mac specific
+.idea
+*~
 .DS_Store
-build
-Thumbs.db
+.sass-cache
+assets
+node_modules
+src/_bower_components
+static/js/*
+!static/js/script-*.min.js
+static/css/*
+!static/css/style-*.min.css
 
-!src/leveldb/Makefile
